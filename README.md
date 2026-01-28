@@ -29,4 +29,20 @@ SQL queries were used to:
 All queries are available in the `sql/` folder.
 
 ## Dashboard
-An
+An interactive Tableau dashboard was created to visualize:
+- Overall attrition KPIs
+- Attrition by department and job role
+- Job satisfaction vs attrition
+- Employee distribution across departments
+
+Dashboard image is available in the `dashboard/` folder.
+
+## Key Insights
+- Overall attrition rate is approximately **16%**
+- Research & Development department shows the highest attrition
+- Certain job roles such as Laboratory Technician and Sales Executive have higher attrition
+- Employees with lower job satisfaction are more likely to leave
+- Employees who left generally had lower average tenure
+
+## Outcome
+This project demonstrates the use of SQL for data analysis, Excel for validation, and Tableau for data visualization and storytelling. It reflects an end-to-end analytics workflow from raw data to actionable insights.
