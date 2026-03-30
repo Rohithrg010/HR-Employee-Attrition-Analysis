@@ -1,48 +1,62 @@
-# HR Employee Attrition Analysis
+# 👥 HR Employee Attrition Analysis (SQL + Tableau)
 
-## Overview
-This project analyzes employee attrition patterns using **SQL**, **Tableau**, and **Excel** to identify key workforce trends and attrition drivers. The analysis focuses on understanding how factors such as department, job role, tenure, and job satisfaction influence employee attrition.
+**Data analytics project focused on identifying key drivers of employee attrition and supporting HR decision-making.**
 
-## Tools & Technologies
-- SQL (MySQL)
-- Tableau
-- Microsoft Excel
-- GitHub
+---
 
-## Dataset
-The project uses the **IBM HR Employee Attrition dataset**, which includes employee demographics, job roles, satisfaction levels, tenure, and attrition status.
+## 🔍 Problem  
+Employee attrition is a major challenge for organizations, impacting productivity and costs.  
+This project analyzes HR data to uncover patterns and key factors influencing employee turnover.
 
-## Objectives
-- Calculate overall employee attrition rate  
-- Identify departments and job roles with high attrition  
-- Compare tenure between employees who left and those who stayed  
-- Analyze the relationship between job satisfaction and attrition  
-- Visualize insights through an interactive dashboard  
+---
 
-## SQL Analysis
-SQL queries were used to:
-- Compute overall attrition percentage
-- Analyze department-wise and role-wise attrition
-- Compare average tenure for attrition vs retention
-- Evaluate job satisfaction impact on attrition
+## 📂 Dataset  
+- Source: IBM HR Analytics Dataset  
+- Key fields:
+  - Employee demographics  
+  - Job role & department  
+  - Tenure  
+  - Job satisfaction  
+  - Attrition status  
 
-All queries are available in the `sql/` folder.
+---
 
-## Dashboard
-An interactive Tableau dashboard was created to visualize:
-- Overall attrition KPIs
-- Attrition by department and job role
-- Job satisfaction vs attrition
-- Employee distribution across departments
+## ⚙️ Approach  
+- Cleaned and transformed data using **SQL and Excel**  
+- Performed exploratory data analysis (EDA)  
+- Analyzed attrition trends across:
+  - Departments  
+  - Job roles  
+  - Experience levels  
+- Built interactive dashboards in **Tableau**  
 
-Dashboard image is available in the `dashboard/` folder.
+---
 
-## Key Insights
-- Overall attrition rate is approximately **16%**
-- Research & Development department shows the highest attrition
-- Certain job roles such as Laboratory Technician and Sales Executive have higher attrition
-- Employees with lower job satisfaction are more likely to leave
-- Employees who left generally had lower average tenure
+## 🛠️ Tech Stack  
+- **SQL** – Data querying & transformation  
+- **Tableau** – Visualization & dashboards  
+- **Excel** – Data cleaning & preprocessing  
 
-## Outcome
-This project demonstrates the use of SQL for data analysis, Excel for validation, and Tableau for data visualization and storytelling. It reflects an end-to-end analytics workflow from raw data to actionable insights.
+---
+
+## 📈 Key Insights  
+- Identified overall attrition rate of ~**16%**  
+- Higher attrition observed in specific job roles and tenure groups  
+- Job satisfaction strongly correlated with employee retention  
+
+---
+
+## 🚀 Impact  
+- Provided actionable insights for HR strategy and workforce planning  
+- Enabled data-driven decisions to improve employee retention  
+- Highlighted key areas for organizational improvement  
+
+---
+
+## 📊 Dashboard Preview  
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/dc33bf50-db2a-4830-93fd-c821bc91b405" />
+
+
+---
+
+## 📁 Repository Structure  
